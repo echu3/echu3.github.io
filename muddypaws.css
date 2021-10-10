@@ -1,0 +1,187 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+	height: 140px;
+  	width: 100%;
+ 	background-color: black;
+ 	color: rgb(121, 92, 92);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header input[type=text] {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 30px;
+}
+
+.buttons{
+    list-style: none;
+    display: flex;
+}
+
+.navbar{
+	list-style:none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+	width: 100%;
+	background-color: white;
+	color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 100px;
+    font-size: 20px;
+}
+
+.landing img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.landing .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.landing .btn2 {
+    position: absolute;
+    top: 70%;
+    right: 25%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+
+.Bestsellers{
+	height: 600px;
+	width: 100%;
+}
+
+.Bestsellers h1 {
+    text-align: left;
+    padding: 40px 100px;
+}
+
+#image1{
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin: 0px 100px;
+}
+
+#image2{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin: 0px 100px;
+}
+
+#image3{
+    width: 350px;
+    height: 350px;
+    margin: 0px auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner1{
+    display: flex;
+    height:600px;
+    width: 100%;
+    background-color: rgba(187, 205, 231, 0.64);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner1 .btn3 {
+    top: 70%;
+    right: 25%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    height:600px;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.6);
+    align-items: center;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 80%;
+    height; 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+
+}
+
+.footer-heading {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+/*Product page Shop Dog*/
