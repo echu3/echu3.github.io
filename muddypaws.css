@@ -277,12 +277,19 @@ a:link {
 .detail-container {
     text-align: left;
     padding: 20px 20px 20px 20px;
+    position: relative;
+    left: 20px;
 
 }
 
+.large-image {
+    left: 20px;
+    position: relative;
+}
 .img-container img {
     height: 30px;
     left: 100px;
+    right: 20px;
     position: absolute;
 
 }
