@@ -332,3 +332,84 @@ a:link {
 .Reviews {
     display: flex;
 }
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 70% auto;
+    height: 100%;
+
+}
+
+.checkout {
+    margin-left: 30px;
+    padding-top: 60px;
+    display: grid;
+    grid-gap: 30px;
+}
+
+.cartitems {
+    display: grid;
+    grid-template-columns: auto 70%;
+    grid-gap: 30px;
+}
+
+.collar {
+    display:grid;
+    grid-template-columns: auto 70%;
+}
+
+.promo, h5 {
+    color: gray;
+    font-size: 14px;
+}
+
+.promo input, .greyboxtext input {
+    width: 250px;
+    height: 25px;
+}
+
+.italicized {
+    font-style:italic;
+    font-size: 10px;
+}
+
+
+.cost {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    grid-gap: 3px;
+
+}
+
+#total {
+    font-size: 14px;
+    font-weight: bold ;
+}
+
+.flow {
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 70% 15% 15%;
+    grid-gap: 30px;
+}
+
+.greybox {
+    background: rgba(240, 240, 240, 0.6);
+}
+
+.greyboxtext {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.create, .login {
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px 0px 0px 0px;
+}
