@@ -301,18 +301,17 @@ a:link {
 
 
 
+.Select, .Sz p {
+    font-style: italic;
+    font-size: 15px;
+    margin: 0 0 20 0;
+}
+
 .colorpng {
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 60%;
     margin-top: 10px;
     cursor: pointer;
-}
-
-
-.Select, .Sz p {
-    font-style: italic;
-    font-size: 15px;
-    margin: 0 0 20 0;
 }
 
 .Sizes{
@@ -327,6 +326,7 @@ a:link {
 
 .Sizes li:hover {
     box-shadow: 0 0 3px 3px gray;
+    cursor: pointer;
 }
 
 .size {
@@ -350,6 +350,7 @@ a:link {
 
 .btn1:hover {
     box-shadow: 0 0 5px 5px white inset;
+    cursor: pointer;
 }
 
 .Reviews {
