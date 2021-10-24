@@ -200,7 +200,7 @@ a:link {
 
 .footer {
     width: 100%;
-    height; 40vh;
+    height: 40vh;
     background-color: black;
     color: white;
     display: flex;
@@ -299,7 +299,17 @@ a:link {
     margin: 25px 5px 25px 5px;
 }
 
-.Select {
+
+
+.colorpng {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 60%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.Select, .Sz p {
     font-style: italic;
     font-size: 15px;
     margin: 0 0 20 0;
@@ -308,6 +318,15 @@ a:link {
 .Sizes{
     list-style: none;
     display: flex;
+}
+
+
+.colorpng img:hover {
+    box-shadow: 0 0 3px 3px gray;
+}
+
+.Sizes li:hover {
+    box-shadow: 0 0 3px 3px gray;
 }
 
 .size {
@@ -327,6 +346,10 @@ a:link {
     font-size: 30px;
     padding: 10px 20px;
 
+}
+
+.btn1:hover {
+    box-shadow: 0 0 5px 5px white inset;
 }
 
 .Reviews {
