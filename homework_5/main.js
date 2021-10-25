@@ -29,3 +29,53 @@ function cartNumbers () {
 
     }
 }
+
+
+function changeStrawberry () {
+    colorWord=document.getElementById("select1");
+    console.log(colorWord.innerText);
+    colorWord.innerText='Strawberry';
+}
+
+function changeBlackberry () {
+    colorWord=document.getElementById("select1");
+    console.log(colorWord.innerText);
+    colorWord.innerText='Blackberry';
+}
+
+function changeFireOrange () {
+    colorWord=document.getElementById("select1");
+    console.log(colorWord.innerText);
+    colorWord.innerText='Fire Orange';
+}
+
+function changeCrazyberry () {
+    colorWord=document.getElementById("select1");
+    console.log(colorWord.innerText);
+    colorWord.innerText='Crazyberry';
+}
+
+
+function changeTiny () {
+    sizeWord=document.getElementById("select2");
+    console.log(sizeWord.innerText);
+    sizeWord.innerText='Tiny';
+}
+
+function changeSmall () {
+    sizeWord=document.getElementById("select2");
+    console.log(sizeWord.innerText);
+    sizeWord.innerText='Small';
+}
+
+function changeMedium () {
+    sizeWord=document.getElementById("select2");
+    console.log(sizeWord.innerText);
+    sizeWord.innerText='Medium';
+}
+
+function changeLarge () {
+    sizeWord=document.getElementById("select2");
+    console.log(sizeWord.innerText);
+    sizeWord.innerText='Large';
+}

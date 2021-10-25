@@ -45,23 +45,24 @@
                 </div>
                 <div class="Colors">
                     <div class="Select">
-                        <p>Select Color*</p>
+                        <p id="select1">Select Color*</p>
                     </div>
                     <div class="colorpng">
-                        <img src="color1.png" alt="pink">
-                        <img src="color2.png" alt="magenta">
-                        <img src="color3.png" alt="orange">
-                        <img src="color4.png" alt="blue">
+                        <img src="color1.png" alt="pink" onclick="changeStrawberry()">
+                        <img src="color2.png" alt="magenta" onclick="changeBlackberry()">
+                        <img src="color3.png" alt="orange" onclick="changeFireOrange()">
+                        <img src="color4.png" alt="blue" onclick="changeCrazyberry()">
                     </div>
                 <div class="Sz">
                     <div class="Select">
-                        <p>Select Size*</p>
+                        <p id="select2">Select Size*</p>
+
                     </div>
                     <ul class="Sizes">
-                        <li class="size">TINY</li>
-                        <li class="size">SMALL</li>
-                        <li class="size">MEDIUM</li>
-                        <li class="size">LARGE</li>
+                        <li class="size" onclick="changeTiny ()">TINY</li>
+                        <li class="size" onclick="changeSmall()">SMALL</li>
+                        <li class="size" onclick="changeMedium()">MEDIUM</li>
+                        <li class="size" onclick="changeLarge()">LARGE</li>
                     </ul>
                     <p>Size Guide</p>
                 </div>
