@@ -437,3 +437,23 @@ a:link {
     padding: 10px 20px;
     margin: 10px 0px 0px 0px;
 }
+
+
+.Quantity {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 3px 3px 5px 1px rgba(0,0,0,.8);
+
+}
+
+#plus, #num, #minus {
+    border: 1px solid gray;
+    background-color: rgba(240, 240, 240, 0.6);
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+#plus:hover, #num:hover, #minus:hover {
+    box-shadow: 0 0 3px 3px gray;
+    cursor: pointer;

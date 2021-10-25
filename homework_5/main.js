@@ -35,6 +35,7 @@ function changeStrawberry () {
     colorWord=document.getElementById("select1");
     console.log(colorWord.innerText);
     colorWord.innerText='Strawberry';
+    document.getElementById("Strawberry").style["boxShadow"] = "2px #000000";
 }
 
 function changeBlackberry () {
