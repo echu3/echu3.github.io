@@ -446,9 +446,17 @@ a:link {
 
 }
 
-#plus, #num, #minus {
+#plus, #minus {
     border: 1px solid gray;
     background-color: rgba(240, 240, 240, 0.6);
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+#num {
+    border: 1px solid gray;
+    background-color: white;
     height: 30px;
     text-align: center;
     justify-content: center;
