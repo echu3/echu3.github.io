@@ -49,9 +49,9 @@
                     </div>
                     <div class="colorpng">
                         <img id="strawberry" src="color1.png" alt="pink" onclick="changeStrawberry()">
-                        <img src="color2.png" alt="magenta" onclick="changeBlackberry()">
-                        <img src="color3.png" alt="orange" onclick="changeFireOrange()">
-                        <img src="color4.png" alt="blue" onclick="changeCrazyberry()">
+                        <img id ="blackberry" src="color2.png" alt="magenta" onclick="changeBlackberry()">
+                        <img id="fireorange" src="color3.png" alt="orange" onclick="changeFireOrange()">
+                        <img id="crazyberry" src="color4.png" alt="blue" onclick="changeCrazyberry()">
                     </div>
                 <div class="Sz">
                     <div class="Select">
@@ -59,17 +59,17 @@
 
                     </div>
                     <ul class="Sizes">
-                        <li class="size" onclick="changeTiny ()">TINY</li>
-                        <li class="size" onclick="changeSmall()">SMALL</li>
-                        <li class="size" onclick="changeMedium()">MEDIUM</li>
-                        <li class="size" onclick="changeLarge()">LARGE</li>
+                        <li id="stiny" class="size" onclick="changeTiny ()">TINY</li>
+                        <li id="ssmall" class="size" onclick="changeSmall()">SMALL</li>
+                        <li id="smedium" class="size" onclick="changeMedium()">MEDIUM</li>
+                        <li id="slarge" class="size" onclick="changeLarge()">LARGE</li>
                     </ul>
                     <p>Size Guide</p>
                 </div>
                 <div class = "Quantity">
-                    <p id="plus">+</p>
+                    <p id="minus" onclick="decrementQuantity ()">-</p>
                     <span id="num">1</span>
-                    <p id="minus">-</p>
+                    <p id="plus" onclick="incrementQuantity ()">+</p>
                 </div>
                 <button class="btn1">Add to cart</button>
                 <div class="Lorem">
