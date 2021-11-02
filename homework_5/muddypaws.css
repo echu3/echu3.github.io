@@ -465,3 +465,25 @@ a:link {
 #plus:hover, #num:hover, #minus:hover {
     box-shadow: 0 0 3px 3px gray;
     cursor: pointer;
+}
+
+.cartpage {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.ordersummary {
+    padding-left: 100px;
+    padding-top: 60px;
+    display: grid;
+    grid-gap: 30px;
+}
+
+.checkoutcart {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 250px;
+
+}
