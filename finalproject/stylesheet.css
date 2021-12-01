@@ -2,9 +2,31 @@
     justify-content: center;
 }
 
-.img-fluid {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
+a {
+    color: black;
 }
+
+a:hover {
+    color: grey;
+}
+
+.form {
+    padding: 3% 25% 10% 25%;
+}
+
+.card {
+}
+
+.headspace {
+    vertical-align: middle;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.description {
+    margin: 0% 20% 0% 10%;
+}
+
+
