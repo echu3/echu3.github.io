@@ -14,19 +14,30 @@ a:hover {
     padding: 3% 25% 10% 25%;
 }
 
-.card {
-}
-
-.headspace {
-    vertical-align: middle;
-}
 
 .card-img-top:hover {
     transform: scale(1.1);
 }
 
+
 .description {
     margin: 0% 20% 0% 10%;
 }
 
+
+//.sticky {//
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    opacity: 60%;
+}
+
+.content {
+    margin: 10% 0% 0% 0%;
+}
+
+.projectcontent {
+    margin: 10% 0% 0% 0%;
+}
 
