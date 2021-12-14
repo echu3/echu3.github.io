@@ -1,5 +1,5 @@
 let carts = document.querySelectorAll('.btn1');
-
+console.log(carts);
 let products = [
     {
         name: 'Strawberry Tiny Dog GPS Tracker Collar',
@@ -9,16 +9,70 @@ let products = [
     }
 ]
 
-for (let i = 0; i < carts.length; i++) {
-    carts[i].addEventListener('click', () => {
-        cartNumbers();
-    })
+//for (let i = 0; i < carts.length; i++) {
+    //carts[i].addEventListener('click', () => {
+       // if (colorSelected && sizeSelected){
+        //addItemToCart();
+       // cartNumbers();
+       // }
+       // else{}
+   // })
+//}
+
+const button = document.getElementById('btn1');
+button.addEventListener('click',function(){
+    //select what the user is selecting
+    addItemToCart();
+
 }
 
+let shopingCart = [];
+
+//impletement shipping cart
+    //add things to the cart
+        //need to create somehting to represnet cart->array
+            // check if a shoppping cart exists and is empty
+                // not exist -> create an empty array
+                //exists and is empty -> read it from storage
+                // exitis and is not empty, read from local storage
+        //need to create somehting to represnet item
+            //implement a "cart item template"
+            // with the temaplate, gonna create an instance of an item that matches the users selection
+                // identify what hte user is selecting
+                    // product name
+                    // color
+                    // size
+                    //number
+                // create a new item using the "new Product" expression
+        //save the cart somewhere
+            // add the newly created item to the shopping cart
+                // add obejct to an array
+            // save it to local storage
+                // localstorage.setitem()
+    //how to display them
+
+    // delete items
+
+function addItemToCart(productColor, productSize, productQuantity){
+    const item = newProduct (productColor, productSize, productQuantity);
+    // initialize and empty cart array
+    let cartItems = [];
+    // create an item object
+    let item ={...};
+    // add the object to the cart
+    cartItems.push(item);
+    //save the cart
+    localStorage.setItem('savedCart', JSON.stringify(cartItems));
+}
+
+// ...representing products as custom Objects
+//...representing your cart as an Array of objects
+//...using separate JS files for page-specific functionality
+//...using the <template> tag for repeated HTML elements
+//...adding event listeners in JS, instead of inline HTML
 
 
 function cartNumbers () {
-    if (colorSelected && sizeSelected){
         let productNumbers = localStorage.getItem('cartNumbers');
         productNumbers =parseInt(productNumbers);
         if(productNumbers) {
@@ -30,7 +84,9 @@ function cartNumbers () {
     
         }
     }
-    
+
+function onload () {
+    let productNumbers=localStorage.getItem('cartNumbers');
 }
 
 var colorSelected = false;
